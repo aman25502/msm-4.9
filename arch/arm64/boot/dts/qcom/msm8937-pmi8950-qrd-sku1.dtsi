@@ -340,9 +340,9 @@
 		qcom,haptics@c000 {
 			qcom,actuator-type = <1>;
 		};
-	}
-	
+	};
 };
+
 
 &sdc2_cmd_on {
 	config {
