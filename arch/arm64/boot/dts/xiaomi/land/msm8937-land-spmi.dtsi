@@ -46,6 +46,11 @@
 			};
 		};
 	};
+    qcom,pmi8950@3 {
+		qcom,haptics@c000 {
+			qcom,actuator-type = <1>;
+		};
+	};
 };
 
 &ibb_regulator {

@@ -58,6 +58,8 @@
 		/delete-property/ pinctrl-1;
 };
 
+&mdss_fb0 { /delete-node/ qcom,cont-splash-memory;};
+
 &apps_iommu {
 	qcom,no-aarch64;
 };
