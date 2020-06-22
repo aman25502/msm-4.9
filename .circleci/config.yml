@@ -1,6 +1,6 @@
 version: 2.1
-jobs :
-  compile :
+jobs:
+  compile:
    docker:
       - image: ubuntu:18.04
    environment:
@@ -14,8 +14,8 @@ jobs :
            git clone https://github.com/aman25502/msm-4.9 -b msm8937-pie-staging kernel
            cd kernel
            bash unified.sh
-workflows :
+workflows:
   version: 2.1
   cooking:
-    jobs :
+  jobs:
       - compile         
