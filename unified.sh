@@ -59,6 +59,7 @@ export SUBARCH="arm64";
 export KBUILD_COMPILER_STRING="$($KERNELDIR/prebuilts/proton-clang/bin/clang --version | head -n 1 | perl -pe 's/\(http.*?\)//gs' | sed -e 's/  */ /g' -e 's/[[:space:]]*$//')"
 export KBUILD_BUILD_USER="aman25502"
 export KBUILD_BUILD_HOST="ahoy"
+export block=/dev/block/bootdevice/by-name/boot
 export PATH="$KERNELDIR/prebuilts/proton-clang/bin:${PATH}"
 export DEFCONFIG="santoni_defconfig";
 export ZIP_DIR="${KERNELDIR}/files";
