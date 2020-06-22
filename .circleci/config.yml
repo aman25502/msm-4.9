@@ -1,5 +1,5 @@
 version: 2.1
-jobs:
+jobs :
   compile:
    docker:
       - image: ubuntu:18.04
@@ -17,5 +17,5 @@ jobs:
 workflows:
   version: 2.1
   cooking:
-    jobs:
+    jobs :
       - compile         
