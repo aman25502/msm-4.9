@@ -4,8 +4,8 @@ jobs:
    docker:
       - image: ubuntu:18.04
    environment:
-      GIT_EMAIL: meshekharbehera613@gmail.com
-      GIT_NAME: Flamefusion
+      GIT_EMAIL: soniataran79@gmail.com
+      GIT_NAME: aman25502
       VERSION: 2.2
    steps:
       - run:
